@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Include moment.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <!-- Include daterangepicker library -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker@3.1.0/daterangepicker.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker@3.1.0/daterangepicker.min.js"></script>
+    <!-- Include Bootstrap CSS for styling (optional) -->
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js">
+
+
+    <div>
+        <h1 class="heading">Monitor</h1>
+    </div>
+    </div>
+    
+   <!-- side bar code  -->
+    <div class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+   <!-- side bar code  -->    
+   
+   
+
+
+      <!-- date picker  -->
+    <div class="datess">
+        <label for="start-date"><h6> From :</h6></label>
+        <input type="date" id="start-date" name="start-date">
+        <label for="end-date"><h6> To :</h6></label>
+        <input type="date" id="end-date" name="end-date">
+    </div>
+  
+    <!-- date picker  -->
+
+
+ <!-- card 1 -->
+      <div class="card cardcss" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"> Active Indents</h5>
+          <h6 class="card-subtitle mb-2 text-muted"></h6>
+          <h4 class="cardcs1">9</h4>
+          <a href="#" class="card-link"></a>
+          <a href="#" class="card-link"></a>
+        </div>
+      </div>
+<!-- card 1 -->
+
+       <!-- card 2 -->
+      <div class="card cardcss1" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Executed Indents</h5>
+          <h6 class="card-subtitle mb-2 text-muted"></h6>
+          <h4 class="cardcs2">4</h4>
+          <a href="#" class="card-link"></a>
+          <a href="#" class="card-link"></a>
+        </div>
+      </div>
+     <!-- card 2 -->
+
+       <!-- card 3 -->
+      <div class="card cardcss2" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Cancelled Indents</h5>
+          <h6 class="card-subtitle mb-2 text-muted"></h6>
+          <h4 class="cardcs3">2</h4>
+          <a href="#" class="card-link"></a>
+          <a href="#" class="card-link"></a>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+
+   
+     
+     
+     <!-- bar graph -->
+     <div style="height: 300px;">
+        <canvas id="myChart"></canvas>
+      </div>
+
+     <!-- bar graph -->
+      <div style="height:300px">
+        <canvas id="myChart1"></canvas>
+      </div>
+
+      <div style="height:300px">
+        <canvas id="myChart2"></canvas>
+      </div>
+
+
+      <div style="height:300px">
+        <canvas id="myChart3"></canvas>
+      </div>
+
+      <!-- pie Chart-->
+      <div style="height: 400px;">
+        <canvas id="pieChart"></canvas>
+      </div>
+    
+
+       <!-- particle theme code -->
+     <script src="particles.js"></script>
+     <script src="app.js"></script>
+
+
+     <!-- particle theme code -->
+
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="app.js"></script> 
+
+</body>
+
+ 
+
+</html>

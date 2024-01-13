@@ -1,0 +1,148 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    color: blueviolet ;
+  }
+  #particles-js {
+    /* stay in a constant spot on the page, regardless of scroll */
+    position: fixed;
+    /* fill the entire page */
+    width: 100%;
+    height: 100%;
+    /* remove the space along the edges */ 
+    margin: 0;
+    padding: 0;
+    /* position it to start at the top of the page */
+    top: 0;
+    /* put it behind other content */
+    z-index: -1;
+    background-color: black;
+}
+#myChart1 {
+  position: absolute;
+  top : 400px;
+  left: 900px;
+}
+#myChart {
+  position: absolute;
+  top : 400px;
+  left: 200px;
+} 
+#myChart2 {
+  position: absolute;
+  top : 700px;
+  left: 200px;
+} 
+#myChart3 {
+  position: absolute;
+  top : 700px;
+  left: 900px;
+} 
+
+#pieChart {
+  position: absolute;
+  top : 1000px;
+  left : 400px;
+}
+.container {
+  position: relative;
+  
+}
+.datess {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.cardcss {
+  position: absolute;
+  top: 200px;
+  left : 250px;
+  height: 200px;
+  width: 400px;
+  background-color:rgba(255, 99, 132, 0.6);
+}
+
+.cardcss1 {
+  position: absolute;
+  top: 200px;
+  left : 700px;
+  height: 200px;
+  width: 500px;
+  background-color: rgba(54, 162, 235, 0.6);
+}
+.cardcss2 {
+  position: absolute;
+  top: 200px;
+  left : 1150px;
+  height: 200px;
+  width: 400px;
+  background-color: rgba(75, 192, 192, 0.6);
+}
+.card-title {
+  padding-left: 50px;
+}
+h5,h6{
+  color: antiquewhite;
+}
+.cardcs1 {
+  font-size: 7rem;
+  color: antiquewhite;
+  padding-left: 70px;
+}
+.cardcs2 {
+  font-size: 7rem;
+  color: antiquewhite;
+  padding-left: 70px;
+}
+.cardcs3 {
+  font-size: 7rem;
+  color: antiquewhite;
+  padding-left: 70px;
+}
+  img {
+     width: 100%;
+    height: 100%; 
+    /* background-size: cover; */
+
+  }
+  .heading {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+
+  }
+  .para1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+  }
+  .sidebar {  
+    background-color: rgba(255, 255, 255, 0.2); /* Green color */
+    backdrop-filter: blur(10px); 
+    width: 150px;
+    height: 100vh;
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    padding: 30px 20px 30px 20px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #75C2F6; /* Darker green on hover */
+   
+  }
+  
+  
